@@ -54,23 +54,3 @@ yobs_df.rename(
 
 
 
-
-
-# Question 2
-# a) (5 pts) What is the most popular boys name in year 1980? 
-yobs_1980_df = yobs_df[yobs_df[(yobs_df["year"] == 1980),
-                               (yobs_df["sex"] == "M")]]
-
-print(yobs_1980_df.head(3))
-
-
-
-
-# b) (10 pts) How many girls were born between 1990 and 1992? 
-
-
-
-
-
-
-# c) (15 pts) Estimate the number of female Benjamin’s alive today (year 2022) who were born on or after 1950. For this particular query, use the given “cdclife-expectancy.csv” file to generate this result. We can interpret the data from this file as, “The average life expectancy of U.S. babies born in each year, for Males and Females” and so on. 
